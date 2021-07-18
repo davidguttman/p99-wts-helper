@@ -115,17 +115,29 @@ function renderOutput () {
   var links = state.wts.map(function (i) {
     return state.inventory[i].Link
   })
-  var linkGroups = groupList(links, 3)
+  var linkLines = groupList(links, 3)
+  var socialMacros = groupList(linkLines, 5)
   return html`
     <div>
       <h1 class="f4 bold center mw5">Output</h1>
-      ${linkGroups.map(function (group) {
-        return html`
-          <textarea class='w-100 h4 mb3 f6'>/auc WTS ${group.join(' - ')}</textarea>
-        `
-      })}
+        <textarea class='w-100 h4 mb3 f6' style='height: 100vh'>${socialMacros.map(createMacro).join('\n')}</textarea>
     </div>
   `
+
+  function createMacro (macro, i) {
+    var button = `Page10Button${i+1}`
+    return [
+      `${button}Name=WTS ${i+1}`,
+      `${button}Color=0`,
+      macro.map(function (links, j) {
+        return `${button}Line${j+1}=${createAuc(links)}`
+      }).join('\n')
+    ].join('\n')
+  }
+
+  function createAuc (links) {
+    return `/auc WTS ${links.join(' - ')}`
+  }
 }
 
 function handleInventoryClick (i) {
