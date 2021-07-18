@@ -49,8 +49,12 @@ function renderDropZone () {
   if (state.inventory.length) return
 
   var drop = html`
-    <div class="outline bg-white pv4 w-third center">
-      Drop Inventory File Here
+    <div class="outline bg-white pv4 w-third center pa4">
+      <p class='f2'>Drop Inventory File Here</p>
+
+      <p>
+      While in game, use <code class='blue'>/outputfile inventory inventory.txt</code> to create an <code class='blue'>inventory.txt</code> file in your P99 directory. Then drag it here.
+      </p>
     </div>
   `
 
@@ -75,8 +79,11 @@ function renderInventory () {
 
   return html`
     <div>
-      <h1 class="f4 bold center mw5">Inventory</h1>
-      <ul class="list pl0 ml0 center mw5 ba b--light-silver br3">
+      <h1 class="f4 bold mw5">Inventory</h1>
+      <p>
+        Click on the items you'd like to advertise for sale.
+      </p>
+      <ul class="list pl0 ml0 mw6 ba b--light-silver br3">
         ${state.inventory.map(function (item, i) {
           var selStyle = state.wts.indexOf(i) >= 0
             ? selected
@@ -95,10 +102,15 @@ function renderInventory () {
 function renderWTS () {
   var buttonStyle = 'ph3 pv2 bb b--light-silver bg-animate hover-bg-black hover-white pointer'
 
+  if (!state.wts.length) return ''
+
   return html`
     <div>
-      <h1 class="f4 bold center mw5">WTS</h1>
-      <ul class="list pl0 ml0 center mw5 ba b--light-silver br3">
+      <h1 class="f4 bold mw5">WTS</h1>
+      <p>
+        Click to remove any items you would not like to sell.
+      </p>
+      <ul class="list pl0 ml0 mw6 ba b--light-silver br3">
         ${state.wts.map(function (item) {
           return html`
             <li class="${buttonStyle}" onclick=${handleWTSClick(item)}>
@@ -119,7 +131,13 @@ function renderOutput () {
   var socialMacros = groupList(linkLines, 5)
   return html`
     <div>
-      <h1 class="f4 bold center mw5">Output</h1>
+      <h1 class="f4 bold mw5">Output</h1>
+        <p>
+          Copy and paste this into the bottom of your <code class='blue'>[Your Character Name]_project1999.ini</code> File. It belongs at the bottom of the <code class='blue'>[Socials]</code> section.
+        </p>
+        <p class='f6'>
+          Note: this assumes your 10th page of social macros are blank/available.
+        </p>
         <textarea class='w-100 h4 mb3 f6' style='height: 100vh'>${socialMacros.map(createMacro).join('\n')}</textarea>
     </div>
   `
