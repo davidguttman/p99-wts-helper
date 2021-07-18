@@ -1,0 +1,21 @@
+{
+  "name": "eq-merchant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live",
+    "build": "browserify index.js > dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.6.4"
+  },
+  "dependencies": {
+    "drag-and-drop-files": "0.0.1",
+    "yo-yo": "^1.4.1"
+  }
+}

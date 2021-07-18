@@ -1,0 +1,168 @@
+Location	Name	ID	Count	Slots
+Charm	Empty	0	0	0
+Ear	Golden Black Sapphire Earring	14702	1	5
+Head	Iksar Hide Cap	5799	1	5
+Face	Platinum Ruby Veil	14695	1	5
+Ear	Obsidian Bead Hoop	10339	1	5
+Neck	Black Alloy Medallion	3615	1	5
+Shoulders	Withered Leather Shoulderpads	2286	1	5
+Arms	Platinum Armband	10336	1	5
+Back	Kunzar Cloak	1617	1	5
+Wrist	Chipped Bone Bracelet	10105	1	5
+Wrist	Chipped Bone Bracelet	10105	1	5
+Range	Empty	0	0	0
+Hands	Split Paw Hide Gloves	2280	1	5
+Primary	Noble's Walking Staff	25076	1	5
+Secondary	Charred Guardian Shield	9311	1	5
+Fingers	Platinum Fire Wedding Ring	14679	1	5
+Fingers	Platinum Fire Wedding Ring	14679	1	5
+Chest	Foreman's Tunic	2341	1	5
+Legs	Gatorscale Leggings	2461	1	5
+Feet	Kobold-hide Boots	2337	1	5
+Waist	Thick Leather Apron	2470	1	5
+Ammo	Empty	0	0	0
+General1	Bag of Sewn Evil-Eye	17354	1	8
+General1-Slot1	Adamantite Club	6604	1	5
+General1-Slot2	Mucilaginous Girdle	2737	1	5
+General1-Slot3	Runed Bone Fork	7314	1	5
+General1-Slot4	Loam Encrusted Lined Shoes	1652	1	5
+General1-Slot5	Empty	0	0	0
+General1-Slot6	Empty	0	0	0
+General1-Slot7	Empty	0	0	0
+General1-Slot8	Empty	0	0	0
+General2	Light Burlap Sack	17353	1	8
+General2-Slot1	Spell: Tears of Druzzil	19319	1	5
+General2-Slot2	Spell: Tears of Druzzil	19319	1	5
+General2-Slot3	Spell: Greater Vocaration: Air	19371	1	5
+General2-Slot4	Spell: Shiftless Deeds	15186	1	5
+General2-Slot5	Spell: Color Skew	15178	1	5
+General2-Slot6	Spell: Pillage Enchantment	15025	1	5
+General2-Slot7	Spell: Pillage Enchantment	15025	1	5
+General2-Slot8	Spell: Cripple	19269	1	5
+General3	Backpack	17005	1	8
+General3-Slot1	Spell: Inferno of Al`Kabor	19322	1	5
+General3-Slot2	Spell: Reckoning	19212	1	5
+General3-Slot3	Spell: Tunare`s Request	19246	1	5
+General3-Slot4	Empty	0	0	0
+General3-Slot5	Empty	0	0	0
+General3-Slot6	Empty	0	0	0
+General3-Slot7	Empty	0	0	0
+General3-Slot8	Empty	0	0	0
+General4	Empty	0	0	0
+General5	Backpack	17005	1	8
+General5-Slot1	Spell: Scars of Sigil	19358	1	5
+General5-Slot2	Spell: Quiver of Marr	19354	1	5
+General5-Slot3	Spell: Talisman of Jasinth	19264	1	5
+General5-Slot4	Spell: Dementia	19384	1	5
+General5-Slot5	Spell: Cripple	19269	1	5
+General5-Slot6	Empty	0	0	0
+General5-Slot7	Empty	0	0	0
+General5-Slot8	Empty	0	0	0
+General6	Backpack	17005	1	8
+General6-Slot1	Spell: Upheaval	19205	1	5
+General6-Slot2	Spell: Reckoning	19212	1	5
+General6-Slot3	Water Sprinkler of the Forgiven	6684	1	5
+General6-Slot4	Spell: Heroic Bond	19224	1	5
+General6-Slot5	Empty	0	0	0
+General6-Slot6	Empty	0	0	0
+General6-Slot7	Empty	0	0	0
+General6-Slot8	Empty	0	0	0
+General7	Dusty Ransacker's Pack	17081	1	8
+General7-Slot1	Spell: Talisman of Jasinth	19264	1	5
+General7-Slot2	Spell: Shield of Barbs	15273	1	5
+General7-Slot3	Empty	0	0	0
+General7-Slot4	Leatherfoot Raider Skullcap	12259	1	5
+General7-Slot5	Empty	0	0	0
+General7-Slot6	Water Flask	13006	15	5
+General7-Slot7	Empty	0	0	0
+General7-Slot8	Ration	13007	19	5
+General8	Smoldering Brand	6692	1	5
+Held	Empty	0	0	0
+Bank1	Tome of Endless Enchantments	17500	1	10
+Bank1-Slot1	Empty	0	0	0
+Bank1-Slot2	Empty	0	0	0
+Bank1-Slot3	Empty	0	0	0
+Bank1-Slot4	Empty	0	0	0
+Bank1-Slot5	Empty	0	0	0
+Bank1-Slot6	Empty	0	0	0
+Bank1-Slot7	Empty	0	0	0
+Bank1-Slot8	Empty	0	0	0
+Bank1-Slot9	Empty	0	0	0
+Bank1-Slot10	Empty	0	0	0
+Bank2	Tome of Endless Enchantments	17500	1	10
+Bank2-Slot1	Empty	0	0	0
+Bank2-Slot2	Empty	0	0	0
+Bank2-Slot3	Empty	0	0	0
+Bank2-Slot4	Empty	0	0	0
+Bank2-Slot5	Empty	0	0	0
+Bank2-Slot6	Empty	0	0	0
+Bank2-Slot7	Empty	0	0	0
+Bank2-Slot8	Empty	0	0	0
+Bank2-Slot9	Empty	0	0	0
+Bank2-Slot10	Empty	0	0	0
+Bank3	Lexicon	17903	1	10
+Bank3-Slot1	Empty	0	0	0
+Bank3-Slot2	Empty	0	0	0
+Bank3-Slot3	Crushbone Shoulderpads	13319	1	5
+Bank3-Slot4	Empty	0	0	0
+Bank3-Slot5	Empty	0	0	0
+Bank3-Slot6	Empty	0	0	0
+Bank3-Slot7	Empty	0	0	0
+Bank3-Slot8	Empty	0	0	0
+Bank3-Slot9	Empty	0	0	0
+Bank3-Slot10	Empty	0	0	0
+Bank4	Backpack	17005	1	8
+Bank4-Slot1	Empty	0	0	0
+Bank4-Slot2	Empty	0	0	0
+Bank4-Slot3	Empty	0	0	0
+Bank4-Slot4	Empty	0	0	0
+Bank4-Slot5	Empty	0	0	0
+Bank4-Slot6	Empty	0	0	0
+Bank4-Slot7	Empty	0	0	0
+Bank4-Slot8	Empty	0	0	0
+Bank5	Backpack	17005	1	8
+Bank5-Slot1	Dark Mail Gauntlets	3310	1	5
+Bank5-Slot2	Mountain Death Belt	1194	1	5
+Bank5-Slot3	RukGus' Sticker	7372	1	5
+Bank5-Slot4	Empty	0	0	0
+Bank5-Slot5	Dwarven Work Boots	3312	1	5
+Bank5-Slot6	Bloodstained Tunic	3308	1	5
+Bank5-Slot7	Moonstone Ring	10150	1	5
+Bank5-Slot8	Empty	0	0	0
+Bank6	Backpack	17005	1	8
+Bank6-Slot1	Split Paw Tooth Necklace	14708	1	5
+Bank6-Slot2	Empty	0	0	0
+Bank6-Slot3	Collar of Undead Protection	10359	1	5
+Bank6-Slot4	Drakescale Belt	2338	1	5
+Bank6-Slot5	Empty	0	0	0
+Bank6-Slot6	Split Paw Hide Mask	2282	1	5
+Bank6-Slot7	Dragoon Dirk	13942	1	5
+Bank6-Slot8	Withered Leather Skullcap	2294	1	5
+Bank7	Backpack	17005	1	8
+Bank7-Slot1	Empty	0	0	0
+Bank7-Slot2	Empty	0	0	0
+Bank7-Slot3	Empty	0	0	0
+Bank7-Slot4	Empty	0	0	0
+Bank7-Slot5	Empty	0	0	0
+Bank7-Slot6	Empty	0	0	0
+Bank7-Slot7	Empty	0	0	0
+Bank7-Slot8	Empty	0	0	0
+Bank8	Backpack	17005	1	8
+Bank8-Slot1	Empty	0	0	0
+Bank8-Slot2	Empty	0	0	0
+Bank8-Slot3	Empty	0	0	0
+Bank8-Slot4	Empty	0	0	0
+Bank8-Slot5	Empty	0	0	0
+Bank8-Slot6	Empty	0	0	0
+Bank8-Slot7	Empty	0	0	0
+Bank8-Slot8	Empty	0	0	0
+Bank9	Empty	0	0	0
+Bank10	Empty	0	0	0
+Bank11	Empty	0	0	0
+Bank12	Empty	0	0	0
+Bank13	Empty	0	0	0
+Bank14	Empty	0	0	0
+Bank15	Empty	0	0	0
+Bank16	Empty	0	0	0
+SharedBank1	Empty	0	0	0
+SharedBank2	Empty	0	0	0
