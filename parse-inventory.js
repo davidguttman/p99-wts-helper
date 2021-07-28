@@ -52,7 +52,8 @@ function eqify (id, text) {
 }
 
 function pad (input) {
-  var val = '00' + input
+  var prefix = input.length < 4 ? '000' : '00'
+  var val = prefix + input
   while (val.length < 45) {
     val = val + '0'
   }
