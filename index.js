@@ -128,7 +128,7 @@ function renderOutput () {
     return state.inventory[i].Link
   })
   var linkLines = groupList(links, 3)
-  var socialMacros = groupList(linkLines, 3)
+  var socialMacros = groupList(linkLines, 5)
   return html`
     <div>
       <h1 class="f4 bold mw5">Output</h1>
@@ -144,18 +144,17 @@ function renderOutput () {
 
   function createMacro (macro, i) {
     var button = `Page10Button${i+1}`
-    var macro2 = [macro[0], null, macro[1], null, macro[2]]
     return [
       `${button}Name=WTS ${i+1}`,
       `${button}Color=0`,
-      macro2.map(function (links, j) {
-        return `${button}Line${j+1}=${links ? createAuc(links) : '/pause 1'}`
+      macro.map(function (links, j) {
+        return `${button}Line${j+1}=${createAuc(links)}`
       }).join('\n')
     ].join('\n')
   }
 
   function createAuc (links) {
-    return `/auc WTS ${links.join(' - ')}`
+    return `/pause 10, /auc WTS ${links.join(' - ')}`
   }
 }
 
