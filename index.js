@@ -135,6 +135,7 @@ function renderOutput () {
         <p>
           Copy and paste this into the bottom of your <code class='blue'>[Your Character Name]_project1999.ini</code> File. It belongs at the bottom of the <code class='blue'>[Socials]</code> section.
         </p>
+        <p>Sadly, EQ needs to be closed/restarted for changes to take effect.</p>
         <p class='f6'>
           Note: this assumes your 10th page of social macros are blank/available.
         </p>
